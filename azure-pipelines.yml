@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '33df8f27-30a1-421b-b4a0-fa5c9395453c'
   imageRepository: 'kubernetesintro'
   containerRegistry: 'ingridkubernetesws.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/backend/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/frontend/Dockerfile'
   tag: '$(Build.BuildId)'
   
   # Agent VM image name
